@@ -1,7 +1,7 @@
-;; Default build script for Clojure projects using nix-clj-helpers
+;; Default build script for Clojure projects using fudo-nix-helpers
 ;;
 ;; This script provides standard build tasks (jar, uberjar, install) that work
-;; with the nix-clj-helpers build system. It's automatically copied into projects
+;; with the fudo-nix-helpers build system. It's automatically copied into projects
 ;; that don't provide their own build.clj.
 ;;
 ;; The script is invoked via `clojure -T:build <task>` where <task> is one of:
